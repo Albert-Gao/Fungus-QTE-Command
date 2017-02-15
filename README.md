@@ -17,3 +17,5 @@ This command plugin includes the following public variables which you can use to
 - **Button Display**: A GameObject which will shrink through time when QTE
 
 When the QTE begins, the command will display the GameObject from the **Button Display** on the screen, then the player needs to press the button of the **QTE Button** within the **Count Timer**. The size of the button will be decreased over time, in the end it will fully disappear from sight. The player should press the button before it disappears.
+
+The code base is from [here](https://gist.github.com/grimmdev/b85994d1b7cad444eb69). I extend it to fungus and add several features which will be needed in the common QTE scenes.
