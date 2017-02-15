@@ -14,6 +14,7 @@ This command plugin includes the following public variables which you can use to
 - **QTE Button**: You can choose which button should the player press
 - **Count Timer**: How long should the QTE lasts?
 - **Delay Timer**: How long should we wait before the event starts?
+- **Flow chart**: The flowchart for where all the former blocks reside.
 - **Button Display**: A GameObject which will shrink through time when QTE
 
 When the QTE begins, the command will display the GameObject from the **Button Display** on the screen, then the player needs to press the button of the **QTE Button** within the **Count Timer**. The size of the button will be decreased over time, in the end it will fully disappear from sight. The player should press the button before it disappears.
